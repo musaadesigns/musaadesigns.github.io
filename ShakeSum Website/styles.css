@@ -1,0 +1,676 @@
+/* CSS Rules */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+  max-width: 100%
+}
+
+header {
+  height: 150px;
+  width: 100%;
+  background-color: pink;
+}
+
+nav {
+  float: right;
+  margin-top: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+header nav {
+  display: block;
+  float: right;
+  margin-bottom: 0 auto;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li{
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+  padding: 18px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+#logo {
+  margin: 20px 10px 0 0;
+  float: left;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: bold;
+  display: inline-block;
+  width: 50%;
+  max-width: 200px;
+  height: 100px;
+  line-height: 20%;
+  background: url(img/ShakeSum-cuplogo3.svg) no-repeat center;
+}
+
+#menu-icon {
+background: url(img/menu-icon.png);
+display: hidden;
+width: 32px;
+height: 32px;
+margin: 25px 10px;
+}
+
+/* BANNER */
+
+.main-banner {
+  max-width: 3000px;
+  height: 500px;
+  background-image: url(img/girl-smoothie2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.main-banner h1 {
+  font-size: 15vw;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px black;
+  margin: 0;
+  padding-top: 200px;
+  background-position: center;
+}
+
+.main-banner h2 {
+  font-size: 20px;
+  color: white;
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px black;
+  margin: 0;
+  background-position: center;
+}
+
+/* PAGE CONTENT */
+
+.new-smoothie img{
+  width: 100%;
+}
+
+.about-img {
+  max-width: 100%;
+  height: 250px;
+  background-image: url(img/cafe5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.primary-content {
+  padding: 2px 30px;
+  margin-bottom: 50px;
+}
+
+.primary-content h1 {
+  color: pink;
+  font-style: italic;
+  font-size: 10vw;
+  text-align: center;
+  text-decoration: none;
+  padding: 50px;
+}
+
+.primary-content p {
+  font-size: 1.1em;
+  line-height: 150%;
+}
+
+.boxes-container {
+  display: flex;
+}
+
+.box1 {
+  background-image: url(img/blackberries-smoothie-square.jpg);
+}
+
+.box2 {
+  background-image: url(img/strawberrysmoothie-square.jpg);
+}
+
+.box3 {
+  background-image: url(img/greensmoothie-square.jpg);
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 33.33%;
+  max-height: 300px;
+  min-height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 40px;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  padding-top: 70px;
+  transition: .5s;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover {
+  transform: scale(.96);
+}
+
+/* MENU */
+
+.menu-img {
+  max-width: 100%;
+  height: 250px;
+  background-image: url(img/raspberries-spatula3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu h1{
+  color: pink;
+  font-style: italic;
+  font-size: 10vw;
+  text-align: center;
+  text-decoration: underline;
+  padding: 50px;
+}
+
+.menu h2{
+  text-align: center;
+  text-decoration: underline;
+  color: pink;
+  font-family: arial, sans-serif;
+  font-size: 1.5em;
+  line-height: 150%;
+  padding: 20px 0 10px;
+}
+
+.menu p{
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 150%;
+  padding-bottom: 10px;
+}
+
+.menuitems1-3,
+.menuitems4-6 {
+  display: flex;
+}
+
+.menuitem1 {
+  background-image: url(img/blackberries-smoothie-square.jpg);
+}
+
+.menuitem2 {
+  background-image: url(img/strawberrysmoothie-square.jpg);
+}
+
+.menuitem3 {
+  background-image: url(img/greensmoothie-square.jpg);
+}
+
+.menuitem4 {
+  background-image: url(img/carrot-juice.jpg);
+}
+
+.menuitem5 {
+  background-image: url(img/krazy-kiwi.jpg);
+}
+
+.menuitem6 {
+  background-image: url(img/yellow-smoothie.jpg);
+}
+
+.menuitem1,
+.menuitem2,
+.menuitem3,
+.menuitem4,
+.menuitem5,
+.menuitem6 {
+  width: 33.33%;
+  max-height: 300px;
+  min-height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 1em;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  padding-top: 70px;
+  transition: .5s;
+}
+
+.menuitem1:hover,
+.menuitem2:hover,
+.menuitem3:hover,
+.menuitem4:hover,
+.menuitem5:hover,
+.menuitem6:hover {
+  transform: scale(.96);
+}
+
+.create-drink {
+  width: 100%;
+  text-align: center;
+}
+
+.create-drink h2 {
+  text-align: center;
+  color: pink;
+  font-family: arial, sans-serif;
+  font-size: 5vw;
+  line-height: 150%;
+  padding: 40px;
+}
+
+.create-drink ul {
+  list-style-type: none;
+  text-align: left;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  padding: 0 50px;
+}
+
+.ingredients {
+  float: left;
+  width: 25%;
+}
+
+.ingredients-container  {
+  padding: 0 0 30px;
+  text-align: center;
+}
+
+.ingredients-container ul {
+  display: inline-block;
+  height: auto;
+}
+
+.ingredients-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.berryblast {
+  max-width: 100%;
+  height: 500px;
+  background-image: url(img/blackberries-smoothie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tarttornado {
+  max-width: 100%;
+  height: 500px;
+  background-image: url(img/strawberrysmoothie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -5px -320px;
+}
+
+.kalekreation {
+  max-width: 100%;
+  height: 500px;
+  background-image: url(img/greensmoothie2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -100px;
+}
+
+.carrotcatch {
+  max-width: 100%;
+  height: 500px;
+  background-image: url(img/carrot-juice.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -50px;
+}
+
+.krazykiwi {
+  max-width: 100%;
+  height: 500px;
+  background-image: url(img/krazy-kiwi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -20px;
+}
+
+.specialshake {
+  max-width: 100%;
+  height: 500px;
+  background-image: url(img/yellow-smoothie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -30px;
+}
+
+/* CONTACT FORM */
+
+.form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 30px 30px;
+}
+
+.form-container h1 {
+  color: pink;
+  font-family: arial, sans-serif;
+  font-style: italic;
+  font-size: 11vw;
+  text-decoration: none;
+  padding-bottom: 50px;
+}
+
+.contact-form input[type=text],
+.contact-form input[type=email] {
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.contact-form button {
+  text-align: center;
+  background-color: pink;
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  width: 100%;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 70px;
+}
+
+/* LOCATIONS PAGE */
+
+.locations {
+  text-align: center;
+}
+
+.location1,
+.location2,
+.location3 {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 30px 30px 30px;
+}
+
+.storefront-img {
+  max-width: 100%;
+  height: 250px;
+  background-image: url(img/opensign.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.locations h1{
+  color: pink;
+  font-style: italic;
+  font-size: 10vw;
+  text-align: center;
+  text-decoration: none;
+  padding: 50px;
+}
+
+.locations h2{
+  text-align: center;
+  text-decoration: underline;
+  color: pink;
+  font-family: arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 150%;
+  padding: 0 0 10px;
+}
+
+.locations p{
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-size: 1em;
+  line-height: 150%;
+  padding-bottom: 10px;
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  text-align: center;
+  border-top: solid 2px pink;
+  padding-top: 40px;
+}
+
+#copyright {
+  color: black;
+  line-height: 2em;
+}
+
+.footer ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 5px 40px;
+}
+
+.footer ul li a{
+
+}
+
+.footer ul li a:hover {
+  transform: scale(1.2);
+}
+
+#twitter {
+  background: url(img/twitter-pink.png) no-repeat center;
+  background-size: contain;
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+}
+
+#instagram {
+    background: url(img/instagram-pink.png) no-repeat center;
+    background-size: contain;
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+}
+
+#facebook {
+  background: url(img/facebook-pink.png) no-repeat center;
+  background-size: contain;
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1024px){
+
+  .form-container h1 {
+    font-size: 11vw;
+  }
+}
+
+@media (max-width: 980px) {
+
+  .box1,
+  .box2,
+  .box3 {
+    font-size: 25px;
+    padding-top: 100px;
+  }
+
+
+@media (max-width: 768px) {
+
+  #menu-icon {
+    display: inline-block;
+    float: right;
+  }
+
+  nav ul,
+  nav:active ul {
+    display: none;
+    position: absolute;
+    background: pink;
+    right: 10px;
+    top: 65px;
+    width: 40%;
+  }
+
+  nav:hover ul {
+    display: block;
+  }
+
+  nav li {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    border-top: solid 1px white;
+  }
+
+  .box1,
+  .box2,
+  .box3 {
+    font-size: 20px;
+    padding-top: 90px;
+  }
+
+  .create-drink h2 {
+    padding: 40px;
+  }
+
+  .kalekreation,
+  .krazykiwi,
+  .specialshake {
+    background-position: center;
+  }
+
+  .tarttornado,
+  .carrotcatch {
+    background-position: top;
+  }
+}
+
+@media (max-width: 650px) {
+
+  .ingredients {
+    float: left;
+    width: 50%;
+  }
+}
+@media (max-width: 425px) {
+
+  #logo {
+    width: 30%;
+  }
+
+  nav {
+    font-size: 15px;
+  }
+
+  .box1,
+  .box2,
+  .box3 {
+    font-size: 15px;
+    padding-top: 90px;
+  }
+
+  .primary-content h1 {
+    font-size: 12vw;
+    padding: 51px 0;
+  }
+
+  .create-drink h2 {
+    font-size: 6vw;
+  }
+
+  .ingredients {
+    width: 50%;
+  }
+
+}
+
+  @media (max-width: 325px) {
+
+    #logo {
+      width: 30%;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+      font-size: 10px;
+      padding-top: 100px;
+    }
+
+    .create-drink h2 {
+      padding: 30px;
+      font-size: 6vw;
+    }
+
+
+    .create-drink ul {
+      font-size: 13px;
+    }
+
+
+    .ingredients {
+      width: 50%;
+    }
+}
