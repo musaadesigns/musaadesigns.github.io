@@ -6,26 +6,26 @@ body {
 }
 
 #header {
-  background-color: #1abc9c;
+  background-color: #253B4A;
   height: 150px;
   line-height: 150px;
 }
 
 #header a {
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
 #header a:hover {
-  color: #222;
+  color: #FFBD08;
 }
 
 #header-title {
   display: block;
   float: left;
-  font size: 20px;
+  font-size: 50px;
   font-weight: 900;
   padding-left: 50px;
 }
@@ -38,6 +38,8 @@ body {
 
 #header-nav li {
   display: inline;
+  font-size: 15px;
+  font-weight: 500;
   padding: 20px;
 }
 
@@ -51,7 +53,7 @@ body {
 }
 
 #footer {
-  background-color: #2f2f2f;
+  background-color: #253B4A;
   padding: 50px;
 }
 
@@ -72,12 +74,12 @@ body {
 }
 
 a {
-  color: #1abc9c;
+  color: #FFBD08;
   text-decoration: none;
 }
 
 a:hover {
-  color: #F6A623
+  color: #FFFFFF
 }
 
 .post, .about {
@@ -86,25 +88,34 @@ a:hover {
   padding:60px 0;
 }
 
-.post-author img {
-  width: 50px;
-  height: 50px;
-  vertical-align: middle;
-  border-radius: 50%;
+.post-title {
+  font-size: 30px;
+  font-weight: 600px;
+  text-align: center;
 }
+
+.post-photo img {
+  width: 960px;
+  height: 540px;
+  align: center;
+  margin: auto;
+} */
 
 .post-author span {
-  margin-left: 16px;
-  font-size: 900;
-  font-style: italic;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
-.post-date {
-  color: gray;
+.post-datename {
+  color: lightgray;
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase
   letter-spacing: 0.1em;
+  text-align: center;
 }
 
 h1, h2, h3, h4 {
@@ -119,6 +130,7 @@ p {
   font-style: normal;
   font-size: 1em;
   font-weight: 100;
+  text-align: center;
 }
 
 .about {
